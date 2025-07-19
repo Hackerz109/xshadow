@@ -2,67 +2,188 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PokéCoins Shop – Fast, Secure, Affordable</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>xshadow Shop | PokéCoins & PokéShinies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
+      font-family: 'Outfit', sans-serif;
       margin: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: #f2f2f2;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      padding: 0;
+      background-color: #f5f9ff;
+      color: #1a1a1a;
     }
-    .card {
-      background: white;
-      padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      max-width: 400px;
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 2.5rem 1rem 2rem;
       text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    h1 {
-      font-size: 1.75rem;
-      color: #ff3d57;
-      margin-bottom: 0.5rem;
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
     }
-    p {
+    header p {
+      font-size: 1.15rem;
+      margin-top: 0.5rem;
+    }
+    .main-shop-link {
+      display: inline-block;
+      margin-top: 1.2rem;
+      background-color: #ffffff;
+      color: #007bff;
+      font-weight: 600;
+      padding: 0.7rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.2s ease-in-out;
+    }
+    .main-shop-link:hover {
+      background-color: #e6f0ff;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .product h2 {
+      color: #0056d2;
+      margin-bottom: 1rem;
+    }
+    .product p {
       font-size: 1rem;
-      margin: 0.75rem 0;
+      line-height: 1.6;
     }
-    .price {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #2dbe60;
-    }
-    .methods {
-      color: #666;
+    .highlight {
+      background-color: #e7f1ff;
+      border-left: 4px solid #007bff;
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
     }
     .btn {
-      margin-top: 1.5rem;
       display: inline-block;
-      background: #2dbe60;
+      margin-top: 1.2rem;
+      padding: 0.7rem 1.5rem;
+      background-color: #007bff;
       color: white;
-      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 0.5rem;
-      font-weight: bold;
-      transition: background 0.3s ease;
+      font-weight: 600;
+      transition: 0.2s ease-in-out;
     }
     .btn:hover {
-      background: #28a457;
+      background-color: #005fcc;
+    }
+    .faq, .refund, .contact {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+      margin-top: 2rem;
+    }
+    .links a {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-right: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #e6f0ff;
+      color: #0056d2;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.2s ease-in-out;
+    }
+    .links a:hover {
+      background-color: #d0e3ff;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 2rem 1rem;
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Buy PokéCoins</h1>
-    <p class="price">Only €0.5 per million</p>
-    <p>Fast, automated, and 100% secure service.</p>
-    <p class="methods">Payment via Litecoin (LTC) or PayPal</p>
-    <a class="btn" href="https://xshadow.sellauth.com" target="_blank">Visit Shop</a>
+  <header>
+    <h1>Welcome to xshadow shop!</h1>
+    <p>Your trusted shop for affordable, fast & secure Pokétwo currencies</p>
+    <a class="main-shop-link" href="https://xshadow.sellauth.com" target="_blank">🔗 Visit Full Shop</a>
+  </header>
+
+  <div class="section">
+    <div class="product">
+      <h2>🪙 PokéCoins – 0.5€ per Million</h2>
+      <p>Trusted by many happy Discord users, our PokéCoins delivery is lightning-fast and always secure.</p>
+
+      <div class="highlight">
+        ⚡ <strong>Fully Automated:</strong> Get your coins delivered in seconds using our smart system.
+      </div>
+
+      <ul>
+        <li>✅ <strong>Reliable:</strong> Loved and trusted by hundreds of Pokétwo players.</li>
+        <li>✅ <strong>Affordable:</strong> Just 0.5€ per 1 million PokéCoins.</li>
+        <li>✅ <strong>Trade-safe:</strong> We use clean, rotated accounts for risk-free trades.</li>
+        <li>🔴 <strong>Note:</strong> 1 product = 1 million PokéCoins.</li>
+      </ul>
+
+      <a class="btn" href="https://xshadow.sellauth.com/product/pokecoins" target="_blank">Buy PokéCoins</a>
+    </div>
+
+    <div class="product">
+      <h2>✨ PokéShinies – 0.02€ each</h2>
+      <p>We offer unsorted, base shiny Pokémon from Pokétwo at a crazy low price of 0.02€ each. While most will be common, you could land something rare or valuable by luck!</p>
+
+      <div class="highlight">
+        🎁 <strong>Surprise Factor:</strong> Every shiny is random — you might strike gold!
+      </div>
+
+      <ul>
+        <li>✅ <strong>Extremely cheap:</strong> Only 0.02€ per shiny.</li>
+        <li>✅ <strong>Instant delivery:</strong> Fast & automated trading system.</li>
+        <li>✅ <strong>Fair deal:</strong> We don’t cherry-pick — everyone gets the same chance.</li>
+      </ul>
+
+      <a class="btn" href="https://xshadow.sellauth.com/product/poketwo-shinies" target="_blank">Buy PokéShinies</a>
+    </div>
+
+    <div class="faq">
+      <h2>📘 Frequently Asked Questions</h2>
+      <p><strong>Q: How fast is delivery?</strong><br/>
+      A: PokéCoins are delivered instantly after payment via our automated system.</p>
+
+      <p><strong>Q: What payment methods are supported?</strong><br/>
+      A: We accept PayPal and LTC (Litecoin) — both fast and secure!</p>
+
+      <p><strong>Q: Are trades safe?</strong><br/>
+      A: Yes! We use clean trade accounts and optimized delivery methods to avoid issues.</p>
+    </div>
+
+    <div class="refund">
+      <h2>💬 Refund Policy</h2>
+      <p>Due to the digital nature of our items, all sales are final. However, if something goes wrong with the delivery or you receive the wrong item, contact us on Discord and we’ll do our best to resolve it.</p>
+    </div>
+
+    <div class="contact">
+      <h2>📞 Contact & Feedback</h2>
+      <p>If you have any questions, concerns, or want to view what others say, check out the links below:</p>
+      <div class="links">
+        <a href="https://discord.com/users/746208123194441759" target="_blank">💬 Contact on Discord</a>
+        <a href="https://xshadow.sellauth.com/feedback" target="_blank">🌟 View Shop Feedback</a>
+      </div>
+    </div>
   </div>
+
+  <footer>
+    &copy; 2025 xshadow. All rights reserved.
+  </footer>
 </body>
 </html>
